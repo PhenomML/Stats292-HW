@@ -1,0 +1,24 @@
+name: stats292
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  # Data & numerics
+  - numpy
+  - pandas
+  - scipy
+  # Plotting
+  - matplotlib
+  # NLP
+  - nltk
+  # Jupyter
+  - jupyterlab
+  - ipykernel
+  # Google Cloud (BigQuery client + gcloud CLI for auth)
+  - google-cloud-sdk
+  - pip
+  - pip:
+      - google-cloud-bigquery[pandas]
+      - google-cloud-bigquery-storage
+      - db-dtypes
