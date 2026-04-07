@@ -5,10 +5,10 @@
 
 ## Homework Assignments
 
-| File | Format | Topic |
-|---|---|---|
-| `HW_FreqStats_BSky.ipynb` | Jupyter Notebook | Frequency statistics on Bluesky skeets |
-| `HW_FreqStats_BSky.md` | Markdown | Same assignment (reference/print version) |
+| File | Format | Topic | Due |
+|---|---|---|---|
+| `HW_FreqStats_BSky.ipynb` | Jupyter Notebook | Frequency statistics on Bluesky skeets | April 16, 2026 at 23:59 PDT |
+| `HW_FreqStats_BSky.md` | Markdown | Same assignment (reference/print version) | April 16, 2026 at 23:59 PDT |
 
 ## Getting Started
 
