@@ -9,6 +9,8 @@
 |---|---|---|---|
 | `HW_FreqStats_BSky.ipynb` | Jupyter Notebook | Frequency statistics on Bluesky skeets | April 16, 2026 at 23:59 PDT |
 | `HW_FreqStats_BSky.md` | Markdown | Same assignment (reference/print version) | April 16, 2026 at 23:59 PDT |
+| `HW_POSTagger_BSky.ipynb` | Jupyter Notebook | Part-of-speech tagging via Hidden Markov Models | April 28, 2026 at 23:59 PDT |
+| `HW_POSTagger_BSky.md` | Markdown | Same assignment (reference/print version) | April 28, 2026 at 23:59 PDT |
 
 ## Getting Started
 
