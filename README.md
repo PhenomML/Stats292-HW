@@ -13,6 +13,17 @@
 | `HW_POSTagger_BSky.md` | Markdown | Same assignment (reference/print version) | April 28, 2026 at 23:59 PDT |
 | `HW3_CountryCapital_WordGeometry.Rmd` | R Markdown | Word vector geometry: countries, capitals, and development | May 7, 2026 at 23:59 PDT |
 | `HW3_CountryCapital_WordGeometry.ipynb` | Jupyter Notebook (R kernel) | Same assignment — use if you prefer Jupyter over RStudio | May 7, 2026 at 23:59 PDT |
+| `HW4_ResidualStream_LogitLens.ipynb` | Jupyter Notebook (Google Colab) | Residual stream: logit lens, mass-mean probe, directional ablation | May 21, 2026 at 23:59 PDT |
+
+## Opening HW4 in Google Colab
+
+HW4 runs on **Google Colab** (free tier is sufficient for Parts 1–4):
+
+1. Download `HW4_ResidualStream_LogitLens.ipynb` from this repo.
+2. Go to [colab.research.google.com](https://colab.research.google.com) → **File → Open notebook → Upload tab**.
+3. Drag the `.ipynb` file into the upload dialog, or click **Browse** to select it.
+4. Run the Setup cells at the top in order — they install `transformer_lens`, download GPT-2 weights (~500 MB, ~1 min), and clone the Marks & Tegmark dataset. **Do not use "Run all" until setup is complete.**
+5. Part 5.4 (GPT-2 medium, optional extension) benefits from a GPU: **Runtime → Change runtime type → T4 GPU**.
 
 ## Getting Started
 
