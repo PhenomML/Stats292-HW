@@ -14,6 +14,7 @@
 | `HW3_CountryCapital_WordGeometry.Rmd` | R Markdown | Word vector geometry: countries, capitals, and development | May 7, 2026 at 23:59 PDT |
 | `HW3_CountryCapital_WordGeometry.ipynb` | Jupyter Notebook (R kernel) | Same assignment — use if you prefer Jupyter over RStudio | May 7, 2026 at 23:59 PDT |
 | `HW4_ResidualStream_LogitLens.ipynb` | Jupyter Notebook (Google Colab) | Residual stream: logit lens, mass-mean probe, directional ablation | May 21, 2026 at 23:59 PDT |
+| `HW5_AttentionCircuits.ipynb` | Jupyter Notebook | Attention circuits: OV/QK virtual weights, induction heads, causal ablation, composition scores | June 5, 2026 at 23:59 PDT |
 
 ## Opening HW4 in Google Colab
 
@@ -24,6 +25,19 @@ HW4 runs on **Google Colab** (free tier is sufficient for Parts 1–4):
 3. Drag the `.ipynb` file into the upload dialog, or click **Browse** to select it.
 4. Run the Setup cells at the top in order — they install `transformer_lens`, download GPT-2 weights (~500 MB, ~1 min), and clone the Marks & Tegmark dataset. **Do not use "Run all" until setup is complete.**
 5. Part 5.4 (GPT-2 medium, optional extension) benefits from a GPU: **Runtime → Change runtime type → T4 GPU**.
+
+## Running HW5
+
+HW5 runs locally using the `stats292` conda environment (no Colab required):
+
+1. Update your environment from `environment.yml` (adds `transformer_lens`, `einops`, `datasets`):
+   ```bash
+   conda env update -f environment.yml --prune
+   conda activate stats292
+   ```
+2. Open `HW5_AttentionCircuits.ipynb` in JupyterLab and select the **Python (stats292)** kernel.
+3. Run the setup cell — it loads GPT-2 small (~500 MB, ~30 sec on first run; cached after that).
+4. Parts 1–4 run on CPU. **No GPU required.**
 
 ## Getting Started
 

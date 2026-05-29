@@ -1,15 +1,20 @@
 name: stats292
 channels:
+  - pytorch
   - conda-forge
   - defaults
 dependencies:
   - python=3.11
+  # PyTorch — must come from conda (pytorch channel) to own libomp on macOS arm64
+  - pytorch
   # Data & numerics
   - numpy
   - pandas
   - scipy
+  - einops
   # Plotting
   - matplotlib
+  - seaborn
   # NLP
   - nltk
   # Jupyter
@@ -28,3 +33,7 @@ dependencies:
       - google-cloud-bigquery[pandas]
       - google-cloud-bigquery-storage
       - db-dtypes
+      # HW4/HW5 — TransformerLens interpretability toolkit
+      # torch must already be installed via conda before this runs
+      - transformer_lens
+      - datasets
